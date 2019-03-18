@@ -8,10 +8,11 @@ MIT License
 
 ***************************************************/
 
+// Ensuring Library Description is only included once
 #ifndef ARDUINOML_H_
 #define ARDUINOML_H_
 
-#include <stdint.h>
+// #include <stdint.h>
 
 // Directives
 
