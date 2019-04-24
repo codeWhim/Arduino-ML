@@ -84,7 +84,15 @@ bool ArduinoML::readExample()
 // void ArduinoML::setDatasetNumber(int dataset_number){ _dataset_number=dataset_number;}
 // int ArduinoML::readNextValue(int dataset_number,)
 
-ArduinoML::train(data, label, epochs, alpha, batch_size){
+ArduinoML::addExample(*data,*label){
+    // Add new line of example in default file
+}
+
+ArduinoML::initData(fileName, validationSplit, testSplit){
+    // Rest is training
+}
+
+ArduinoML::train(epochs, alpha, batch_size){
 // Identify Data/Lable data type
 // a lower level method
 
